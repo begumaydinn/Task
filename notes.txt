@@ -1,0 +1,18 @@
+FİRST ONE
+CREATE TABLE mytable(
+   event_id   VARCHAR(20) NOT NULL
+  ,event_time BIGINT NOT NULL
+  ,ccy_couple VARCHAR(6) NOT NULL
+  ,rate       FLOAT(20) NOT NULL
+);
+
+SECOND ONE
+CREATE TABLE mytable(
+   event_id   VARCHAR(18) NOT NULL PRIMARY KEY
+  ,event_time DATETIME NOT NULL
+  ,ccy_couple VARCHAR(6) NOT NULL
+  ,rate       FLOAT  NOT NULL
+);
+
+
+"https://www.convertcsv.com/csv-to-sql.htm" bu siteyi kullan
